@@ -1,0 +1,32 @@
+.container{
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#f33124, #523e6b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(20px, 0px); }
+    100%   { transform: translate(0, -0px); } 
+  
+}
+h2{
+    text-align: center;
+    height: 25px;
+    border: solid 2px black;
+    width: 90px;
+    margin-left: 45%;
+}
+#otp{
+    text-align: center;
+    margin-left: 46.5%;
+    border-radius: 5px;
+}
